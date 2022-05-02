@@ -31,7 +31,7 @@ import inspect
 import math
 from typing import Any, List, Iterable, Optional, Text, Tuple
 
-from keras.layers.preprocessing import image_preprocessing as image_ops
+import tensorflow.keras.preprocessing.image as image_ops
 import numpy as np
 import tensorflow as tf
 

@@ -25,7 +25,7 @@ from __future__ import print_function
 import math
 from typing import Any, Dict, List, Optional, Text, Tuple
 
-from keras.layers.preprocessing import image_preprocessing as image_ops
+import tensorflow.keras.preprocessing.image as image_ops
 import tensorflow as tf
 
 

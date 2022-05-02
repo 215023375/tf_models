@@ -96,3 +96,7 @@ ENV/
 
 # For mac
 .DS_Store
+
+# Ignore generated protos?
+# These can be generated using: protoc object_detection/protos/*.proto --python_out=.
+research/object_detection/protos/*.py

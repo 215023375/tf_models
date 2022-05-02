@@ -41,7 +41,7 @@ class StepwiseLrConfig(base_config.Config):
   configs. It will configure an instance of PiecewiseConstantDecay keras
   learning rate schedule.
 
-  An example (from keras docs): use a learning rate that's 1.0 for the first
+  An example (from tensorflow.keras docs): use a learning rate that's 1.0 for the first
   100001 steps, 0.5 for the next 10000 steps, and 0.1 for any additional steps.
     ```python
     boundaries: [100000, 110000]
